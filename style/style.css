@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.logo-messi{
+    width: 85px;
+    height: 70px;
+}
+
+.nav-ul{
+    text-align: center;
+}
+
+.ul-li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+.a{
+    text-decoration: none;
+    text-align: center;
+}
+/* fin header */
+
+/* main */
+main{
+    background: url(../img/fondo.jpg)fixed 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    background-color: rgba(238, 238, 241, 0.2);
+}
+
+/* primer seccion */
+.first-h1{
+    color: wheat;
+    text-shadow: 1px 1px lightyellow;
+                /* 2px 2px lightgoldenrodyellow; */
+}
+.divSection{
+    background-color: rgba(238, 238, 241, 0.2);
+}
+
+/* aside */
+.aside-1{
+    display: inline-block;
+    position: absolute;
+    margin: 10px 0px 0px 0px;
+    border:2px solid lightgoldenrodyellow;
+}
+
+.imgAside{
+    position: relative;
+    width: 70px;
+    opacity: 0.8;
+    display: block;
+    padding: 5px;
+}
+/* segunda seccion */
+.section-2{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.section2-h3{
+    color: rgb(179, 245, 245);
+    text-shadow: 1px 1px rgb(128, 174, 193);
+}
+
+.divSection2{
+    width: 170px;
+    display: inline-block;
+
+}
+
+.div-2-section2{
+    width: 301.5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.section-p{
+    color: rgb(8, 8, 8);
+    background-color: antiquewhite ;
+    opacity: 0.6;
+}
+
+/* imagenes */
+.sectionImagenes{
+    background: url(../img/fondo2.jpg) 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagenes__conteiner-img{
+    width: 100px;
+    border: 2px solid lightgoldenrodyellow;
+}
