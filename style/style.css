@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header */
 .logo-messi{
     width: 85px;
@@ -21,12 +22,14 @@
 
 .a{
     text-decoration: none;
+    font-size: 20px;
     text-align: center;
 }
+
 /* fin header */
 
 /* main */
-main{
+#main{
     background: url(../img/fondo.jpg)fixed 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,62 +41,70 @@ section{
 /* primer seccion */
 .first-h1{
     color: wheat;
-    text-shadow: 1px 1px lightyellow;
+    font-size: 60px;
+    text-shadow: 2px 2px lightyellow;
                 /* 2px 2px lightgoldenrodyellow; */
 }
-.divSection{
-    background-color: rgba(238, 238, 241, 0.2);
+
+.section-p{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+    background-color: antiquewhite ;
+    opacity: 0.6;
 }
 
+.divSection{
+    height: 100px;
+}
+/* ---------------------------------------------------- */
 /* aside */
-.aside-1{
+/* .aside-1{
     display: inline-block;
-    position: absolute;
     margin: 10px 0px 0px 0px;
     border:2px solid lightgoldenrodyellow;
 }
 
 .imgAside{
-    position: relative;
     width: 70px;
     opacity: 0.8;
     display: block;
     padding: 5px;
-}
+} */
+/* -------------------------------------------------- */
+
 /* segunda seccion */
 .section-2{
-    margin: 10px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     text-align: center;
 }
 
 .section2-h3{
     color: rgb(179, 245, 245);
+    font-size: 30px;
     text-shadow: 1px 1px rgb(128, 174, 193);
 }
 
 .divSection2{
-    width: 170px;
+    width: 450px;
+    height: 250px;
     display: inline-block;
 
 }
 
 .div-2-section2{
-    width: 301.5px;
+    width: 910px;
     display: inline-block;
     text-align: center;
 }
 
-.section-p{
-    color: rgb(8, 8, 8);
-    background-color: antiquewhite ;
-    opacity: 0.6;
-}
+
 
 /* imagenes */
 .sectionImagenes{
     background: url(../img/fondo2.jpg) 0%;
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin: 10px 0px 0px 0px; */
 }
 .imagenes__conteiner-img{
     width: 100px;
