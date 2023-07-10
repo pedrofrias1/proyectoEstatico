@@ -5,17 +5,26 @@
 }
 
 /* header */
+header{
+    background-color: rgba(122, 146, 154, 0.484);
+}
+.logo-contenedor{
+    text-align: center;
+}
+
 .logo-messi{
     width: 85px;
     height: 70px;
 }
 
 .nav-ul{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .ul-li{
-    display: inline-block;
     list-style: none;
     padding: 5px;
 }
@@ -23,7 +32,7 @@
 .a{
     text-decoration: none;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* fin header */
@@ -75,6 +84,7 @@ section{
 /* segunda seccion */
 .section-2{
     margin: 50px 0px 0px 0px;
+    border: solid 2px red;
     text-align: center;
 }
 
@@ -85,15 +95,19 @@ section{
 }
 
 .divSection2{
+    border: solid green 2px;
     width: 450px;
-    height: 250px;
-    display: inline-block;
+    height: 314px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 .div-2-section2{
+    border: solid 2px blue;
     width: 910px;
-    display: inline-block;
+    flex-wrap: wrap;
+    display: flex;
     text-align: center;
 }
 
