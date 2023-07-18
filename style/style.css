@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 /* header */
@@ -9,34 +9,34 @@ header{
     background-color: rgba(122, 146, 154, 0.484);
 }
 .logo-contenedor{
-    text-align: center;
+    position: relative;
 }
-
 .logo-messi{
-    width: 85px;
-    height: 70px;
+    width: 15%;
+    border: solid 1px black;
 }
-
-.nav-ul{
+.navBar{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
-
 .ul-li{
     list-style: none;
-    padding: 5px;
 }
-
-.a{
+a{
     text-decoration: none;
     font-size: 20px;
-    /* text-align: center; */
+    font-weight: 800;
+    color: lightgoldenrodyellow;
+    padding-right: 10px;
 }
-
+.nav-ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 /* fin header */
-
 /* main */
 #main{
     background: url(../img/fondo.jpg)fixed 0%;
@@ -46,25 +46,100 @@ header{
 section{
     background-color: rgba(238, 238, 241, 0.2);
 }
-
+/* fin de main background */
 /* primer seccion */
-.first-h1{
+h1{
     color: wheat;
     font-size: 60px;
+    text-transform: uppercase;
     text-shadow: 2px 2px lightyellow;
                 /* 2px 2px lightgoldenrodyellow; */
 }
-
-.section-p{
+.section-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.barcelona{
+    color: brown;
+    font-weight: 100;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.section__p{
     color: rgb(8, 8, 8);
     font-size: 30px;
     background-color: antiquewhite ;
     opacity: 0.6;
 }
-
-.divSection{
-    height: 100px;
+/* fin primer seccion */
+/* segunda seccion */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+.section__h3{
+    color: rgb(179, 245, 245);
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 1px 1px rgb(128, 174, 193);
+}
+.divSection2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+.div-2-section2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* fin segunda seccion */
+/* inicio de galeria de imagenes */
+.galeriaImg{
+    background: url(../img/fondo2.jpg) 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+}
+.articleImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 100px; */
+    flex-wrap: wrap;
+}
+.imgConteiner{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 200px 200px 200px;
+}
+.img-golden{
+    width: 90%;
+    border: solid 2px lightyellow;
+    opacity: 0.9;
+}
+.img__h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #4c0fbd;
+}
+
+
+
+
+
+
+
+
 /* ---------------------------------------------------- */
 /* aside */
 /* .aside-1{
@@ -80,50 +155,36 @@ section{
     padding: 5px;
 } */
 /* -------------------------------------------------- */
-
-/* segunda seccion */
-.section-2{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    flex-direction: column;
-    text-align: center;
-}
-
-.section2-h3{
-    color: rgb(179, 245, 245);
-    font-size: 30px;
-    align-items: center;
-    text-shadow: 1px 1px rgb(128, 174, 193);
-}
-
-.divSection2{
-    width: 450px;
-    height: 314px;
-}
-
-.div-2-section2{
-    width: 910px;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
 /* imagenes */
 .firstArticle{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+    display: flex;
+    grid-template-columns: 200px 200px 200px;/*esto cuando aprendas bien grid*/
 }
 
 .sectionImagenes{
     background: url(../img/fondo2.jpg) 0%;
     background-repeat: no-repeat;
     background-size: cover;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
     /* margin: 10px 0px 0px 0px; */
 }
 
 .imagenes__conteiner-img{
-    width: 100px;
+    width: 70%;
     border: 2px solid lightgoldenrodyellow;
+}
+
+@media (max-width:800px) {
+    .logo-contenedor{
+        text-align: start;
+    }
+    .nav-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-items: start;
+    }
 }
