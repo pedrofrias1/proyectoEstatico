@@ -6,26 +6,28 @@
     <link rel="shortcut icon" href="./img/logo-messi.jpg" type="image/x-icon">
     <title>Lionel Messi</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <nav class="navBar">
-            <div class="logo-contenedor">
-                <a href="#"><img class="logo-messi" src="img/logo-messi.jpg" alt="logoMessi"></a>
-            </div>
-            <ul class="nav-ul">
+        <nav class="navBar container">
+            <div class="row">
+                <a class="col" href="#"><img class="logo-messi row" src="img/logo-messi.jpg" alt="logoMessi"></a>
+                
+            <ul class="nav-ul col navbar-text" style="color: lightgoldenrodyellow;">
                 <li class="ul-li"><a class="a" href="#biografia">Biografia</a></li>
-                <li class="ul-li"><a class="a" href="#imagenes">Imagenes</a></li>
+                <li class=" ul-li"><a class="a" href="#imagenes">Imagenes</a></li>
                 <li class="ul-li"><a class="a" href="">Trofeos</a></li>
                 <li class="ul-li"><a class="a" href="">Goles y Asistencias</a></li>
             </ul>
+            </div>
         </nav>
     </header>
 
     <main id="main">
         <!-- 1er seccion mini biografia sobre messi -->
         <section class="section-1">
-            <h1>Lionel Messi</h1>
+            <h1 class="text-primary">Lionel Messi</h1>
                 <div class="divSection">
                     <P class="section__p">
                     Lionel Andres Messi Cuccitini, conocido como leo Messi, es un futbolista argentino campeon del mundo, que juega como delantero.
@@ -72,9 +74,8 @@
 </main>
 <!-- seccion 3 galeria de imagenes -->
 <section id="imagenes"  class="galeriaImg">
-    <article class="articleImg">
+    <article class="articleGolden">
         <h2 class="img__h2">galeria de imagenes</h2>
-        <h2 class="img__h2">balones de oro de messi</h2>
         <div class="imgConteiner">
             <div>
                 <img class="img-golden" src="./img/messi-1er-balon-de-oro.jpg" alt="primer">
@@ -94,8 +95,25 @@
             <div>
                 <img class="img-golden" src="img/messi-6to-balon-de-oro.jpg" alt="sexto">
             </div>
+            <div>
+                <img class="img-golden" src="./img/messichampions.jpg" alt="">
+            </div>
+            <div>
+                <img class="img-golden" src="./img/Lionel-Messi-Argentina-2022-FIFA-World-Cup_(cropped).jpg" alt="">
+            </div>
+            <div>
+                <img class="img-golden" src="./img/messipsg.jpg" alt="">
+            </div>
+            <div>
+                <img class="img-golden" src="./img/newells.jpeg" alt="">
+            </div>
+            <div>
+                <img class="img-golden" src="./img/messibarcelonainferiores.jpg" alt="">
+            </div>
         </div>
     </article>
+
+    
 </section>
 
 
@@ -179,7 +197,7 @@
 
             <!-- ----- seccion 4 logros en su carrera  trofeos individual y colectivo----->
 
-            <section>
+            <section class="sectionLogros">
                 <h3>Trofeos en el futbol Club Barcelona </h3>
 
                 <div>
@@ -240,5 +258,6 @@
     <footer>
 
     </footer> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
