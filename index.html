@@ -14,7 +14,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="container d-flex justify-content-between align-items-center nav-messi">
+    <div class="container-fluid d-flex justify-content-between align-items-center nav-messi">
        
         <img src="./img/logo-messi.jpg" alt="logo-messi" class="img-logo">
             <ul class="d-flex items-ul">
@@ -22,6 +22,7 @@
                 <li><a href="#galeria" class="items">Galeria</a></li>
                 <li><a href="#trofeos" class="items">Trofeos</a></li>
                 <li><a href="#goles" class="items">Goles y Asistencias</a></li>
+                <li><a href="#footer" class="items">Redes Sociales</a></li>
             </ul>
     </div>
 </nav>
@@ -117,7 +118,7 @@
                     <img src="./img/futbol-americano.png" alt="" class="img-gol">
             </div>
             
-            <div class="d-flex align-items-center flex-column">
+            <div class="d-flex align-items-center flex-column total">
                 <div class="box d-flex flex-column align-items-center justify-content-between">
                     <h2>total Partidos</h2>
                         <span class="span" data-val="1031">000</span>
@@ -128,7 +129,8 @@
     </section>
 <!-- section - 4  titulos idividuales y colectivos-->
 <section class="titulos">
-    <div class="container tabla">
+    <div class="container tabla mt-3">
+        <h2 class="h2__section text-center">Titulos con seleccion Argentina y sus Clubes</h2>
         <table class="table table-dark">
             <thead>
                 <tr>
@@ -198,38 +200,38 @@
                   </tr>
                   <tr>
                     <th scope="row">Mundial Sub-20</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina">1</td>
                   </tr>
                   <tr>
                     <th scope="row">Oro Olimpico</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina">1</td>
                   </tr>
                   <tr>
                     <th scope="row">Copa America</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina">1</td>
                   </tr>
                   <tr>
                     <th scope="row">Copa Finalissima</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina">1</td>
                   </tr>
                   <tr>
                     <th scope="row" class="bg-warning">Copa del Mundo</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina"></td>
+                    <td class="SeleccionArgentina">1</td>
                   </tr>
                   <tr>
                     <th scope="row">Total</th>
@@ -238,16 +240,28 @@
                     <td></td>
                     <td>42</td>
                   </tr>
-
                   </tbody>
           </table>
     </div>
-    
 </section>
 </main>
+<!-- section 5 footer -->
+<footer id="footer">
+    <section class="container row">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="./img/logo-messi.jpg" alt="logo-messi" class="img-logo">
+            <span><a href="https://messi.com" target="_blank">Pagina oficial de Leo Messi</a></span>
+            <ul class="d-flex justify-content-between gap-3 ulFooter">
+                <li><a href="https://www.instagram.com/leomessi/"><img src="./img/instagram.png" class="itemsFooter" alt="instagram-messi"></a></li>
+                <li><a href="https://www.facebook.com/leomessi/"><img src="./img/facebook.png" class="itemsFooter" alt="facebook-messi"></a></li>
+                <li><a href="https://www.youtube.com/user/LeoMessi"><img src="./img/youtube.png" class="itemsFooter" alt="youtube-messi"></a></li>
+            </ul>
+         </div>
+    </section>
+</footer>
 
 
-<!-- <script src="./scrip.js"></script> -->
+<script src="./scrip.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
