@@ -15,10 +15,4 @@
 //     }, duration);
 // });
 
-// asigna el valor adulto a la variable estado si la edad es mayor o igual a 18, de lo contrario le asigna el valor menor;
-let valorAdulto = 14;
-if (valorAdulto >=18 ) {
-    console.log("es mayor")
-} else {
-    console.log("es menor de edad")
-}
+
