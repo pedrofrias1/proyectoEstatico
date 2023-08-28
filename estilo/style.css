@@ -156,6 +156,23 @@
 .total{
     grid-column: 2;
 }
+/* section-4 */
+.bg-pink{
+    background-color: var(--pink);
+    height: 100vh;
+}
+/* footer */
+footer{
+    background-color: var(--bgr-navBar);
+}
+#footer{
+    position: relative;
+}
+.li-footer{
+    list-style: none;
+    background-color: var(--white);
+    border-radius: 50%;
+}
 @media (max-width:1400px){
     .bg-galeria{
         background-color: var(--bgr-navBar);
@@ -261,6 +278,17 @@
         background-size: cover;
         height: 100%;
     }
+    .ulFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulos{
+        height: 140vh;
+    }
 }
 @media (max-width:576px){
     .ul{
@@ -300,6 +328,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
+    }
+    .titulos{
+        height: 180vh;
     }
 }
 
